@@ -1,0 +1,49 @@
+name: Generate Build Activity SVG
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "config/sprint.json"       # Triggers whenever you update the sprint config
+      - "scripts/generate_svg.py"  # Or when the generator itself changes
+  schedule:
+    - cron: "0 */6 * * *"          # Also regenerates every 6 hours (keeps timestamp fresh)
+  workflow_dispatch:               # Manual trigger from GitHub Actions UI anytime
+
+permissions:
+  contents: write                  # Needed to commit the generated SVG back to the repo
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: Regenerate build-activity.svg
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run SVG generator
+        run: python scripts/generate_svg.py
+
+      - name: Check if SVG changed
+        id: diff
+        run: |
+          git diff --quiet assets/build-activity.svg \
+            && echo "changed=false" >> $GITHUB_OUTPUT \
+            || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated SVG
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/build-activity.svg
+          git commit -m "chore: regenerate build-activity.svg [skip ci]"
+          git push
