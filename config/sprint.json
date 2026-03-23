@@ -6,16 +6,16 @@
   "tagline": "AI Governance Infrastructure · Built for Production",
   "sprint_label": "Sprint · March 2026",
   "mvp_deadline": "2026-03-28",
-  "last_updated": "2026-03-14",
+  "last_updated": "2026-03-23",
 
-  "overall_pct": 31,
+  "overall_pct": 82,
 
   "areas": [
-    { "name": "Core API  /evaluate",  "done": 3,  "total": 10, "pct": 30, "color": "blue"  },
-    { "name": "Docker / Deployment",  "done": 4,  "total": 6,  "pct": 67, "color": "teal"  },
-    { "name": "Logging & Audit",      "done": 2,  "total": 4,  "pct": 50, "color": "amber" },
-    { "name": "Sandbox / Testing",    "done": 1,  "total": 6,  "pct": 17, "color": "dim"   },
-    { "name": "GitHub Repos",         "done": 0,  "total": 5,  "pct": 0,  "color": "dim"   },
+    { "name": "Core API  /evaluate",  "done": 3,  "total": 10, "pct": 100, "color": "blue"  },
+    { "name": "Docker / Deployment",  "done": 4,  "total": 6,  "pct": 50, "color": "teal"  },
+    { "name": "Logging & Audit",      "done": 2,  "total": 4,  "pct": 70, "color": "amber" },
+    { "name": "Sandbox / Testing",    "done": 1,  "total": 6,  "pct": 0, "color": "dim"   },
+    { "name": "GitHub Repos",         "done": 0,  "total": 5,  "pct": 90,  "color": "dim"   },
     { "name": "Team & People",        "done": 0,  "total": 8,  "pct": 0,  "color": "dim"   },
     { "name": "Docs Pre-Release",     "done": 0,  "total": 10, "pct": 0,  "color": "dim"   }
   ],
@@ -40,24 +40,17 @@
     { "week": "W-1", "closed": 9 }
   ],
 
-  "blockers": [
-    { "owner": "Meili",  "task": "reflex.py rewrite · risk scoring engine",   "severity": "high"   },
-    { "owner": "Noah",   "task": "testing report + sandbox case study",        "severity": "medium" },
-    { "owner": "∆OT",    "task": "GitBook + all 7 repo READMEs",               "severity": "medium" },
-    { "owner": "Toba",   "task": "WordPress source extraction",                "severity": "low"    }
-  ],
-
   "stack": ["Python 3.11", "FastAPI", "Docker", "Uvicorn", "Risk ML", "Policy Engine"],
 
   "ticker": [
     "POST /evaluate — endpoint validated",
     "Docker build — clean clone confirmed",
-    "reflex.py — rewrite in progress",
+    "reflex.py — repository audit #1 & #2 completed",
     "MVP deadline — March 28",
     "GitBook docs — in progress",
-    "Risk scoring — ML engine active",
+    "Risk scoring — ML engine active/LLMScorer API activation pending",
     "Policy engine — healthcare ruleset",
-    "Audit log — 8-field schema pending",
+    "Audit log — 8-field schema completed",
     "Sandbox — case study pending",
     "SDKs — Python + JS · planned"
   ]
