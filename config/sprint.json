@@ -40,6 +40,14 @@
     { "week": "W-1", "closed": 9 }
   ],
 
+  
+  "blockers": [
+    { "owner": "Meili Liang",  "task": "Multi-agent sandbox testing",   "severity": "high"   },
+    { "owner": "Chengquian Lou Noah",   "task": "docker deployment + cloud provider sandbox deployment + sandbox testing",        "severity": "high" },
+    { "owner": "∆OT",    "task": "GitBook + all 7 repo READMEs",               "severity": "medium" },
+    { "owner": "OluwaToba Adenji",   "task": "WordPress source extraction",                "severity": "low"    }
+  ],
+
   "stack": ["Python 3.11", "FastAPI", "Docker", "Uvicorn", "Risk ML", "Policy Engine"],
 
   "ticker": [
