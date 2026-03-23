@@ -9,10 +9,10 @@
 <line x1="28" y1="1" x2="832" y2="1" stroke="#1A6FC4" stroke-width="1" opacity="0.45"/>
 <text x="36" y="20" font-family="monospace" font-size="15" font-weight="700" fill="#c8d0e0" letter-spacing="0.5">Trivian Technologies</text>
 <text x="36" y="38" font-family="monospace" font-size="10" fill="#5a6478" letter-spacing="0.8">AI Governance Infrastructure · Built for Production</text>
-<text x="824" y="20" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">Updated 2026-03-23 13:25 UTC</text>
+<text x="824" y="20" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">Updated 2026-03-23 14:34 UTC</text>
 <text x="824" y="38" font-family="monospace" font-size="9" fill="#1A6FC4" text-anchor="end">Sprint · March 2026</text>
 <rect x="28" y="70" width="192" height="52" rx="8" fill="#111620" stroke="#1e2533" stroke-width="0.8"/>
-<text x="124" y="92" font-family="monospace" font-size="22" font-weight="700" fill="#c8d0e0" text-anchor="middle">31%</text>
+<text x="124" y="92" font-family="monospace" font-size="22" font-weight="700" fill="#c8d0e0" text-anchor="middle">82%</text>
 <text x="124" y="110" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="middle" letter-spacing="0.8">Overall</text>
 <rect x="232" y="70" width="192" height="52" rx="8" fill="#111620" stroke="#1e2533" stroke-width="0.8"/>
 <text x="328" y="92" font-family="monospace" font-size="22" font-weight="700" fill="#00d4aa" text-anchor="middle">3</text>
@@ -406,47 +406,47 @@
 <rect x="28" y="278" width="395" height="244" rx="8" fill="#111620" stroke="#1e2533" stroke-width="0.8"/>
 <text x="42" y="292" font-family="monospace" font-size="9" fill="#5a6478" letter-spacing="1">MVP Delivery — Area Progress</text>
 <text x="42" y="314" font-family="monospace" font-size="10" fill="#c8d0e0">Core API  /evaluate</text>
-<text x="409" y="314" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">30%</text>
+<text x="409" y="314" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">100%</text>
 <rect x="42" y="318" width="367" height="5" rx="3" fill="#1e2533"/>
-<rect x="42" y="318" width="110"
+<rect x="42" y="318" width="367"
             height="5" rx="3" fill="#1A6FC4">
-          <animate attributeName="width" from="0" to="110"
+          <animate attributeName="width" from="0" to="367"
                    dur="1.2s" fill="freeze" calcMode="spline"
                    keySplines="0.22 1 0.36 1"/>
         </rect>
 <text x="42" y="344" font-family="monospace" font-size="10" fill="#c8d0e0">Docker / Deployment</text>
-<text x="409" y="344" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">67%</text>
+<text x="409" y="344" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">50%</text>
 <rect x="42" y="348" width="367" height="5" rx="3" fill="#1e2533"/>
-<rect x="42" y="348" width="245"
+<rect x="42" y="348" width="183"
             height="5" rx="3" fill="#00d4aa">
-          <animate attributeName="width" from="0" to="245"
-                   dur="1.2s" fill="freeze" calcMode="spline"
-                   keySplines="0.22 1 0.36 1"/>
-        </rect>
-<text x="42" y="374" font-family="monospace" font-size="10" fill="#c8d0e0">Logging &amp; Audit</text>
-<text x="409" y="374" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">50%</text>
-<rect x="42" y="378" width="367" height="5" rx="3" fill="#1e2533"/>
-<rect x="42" y="378" width="183"
-            height="5" rx="3" fill="#f0a500">
           <animate attributeName="width" from="0" to="183"
                    dur="1.2s" fill="freeze" calcMode="spline"
                    keySplines="0.22 1 0.36 1"/>
         </rect>
+<text x="42" y="374" font-family="monospace" font-size="10" fill="#c8d0e0">Logging &amp; Audit</text>
+<text x="409" y="374" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">70%</text>
+<rect x="42" y="378" width="367" height="5" rx="3" fill="#1e2533"/>
+<rect x="42" y="378" width="256"
+            height="5" rx="3" fill="#f0a500">
+          <animate attributeName="width" from="0" to="256"
+                   dur="1.2s" fill="freeze" calcMode="spline"
+                   keySplines="0.22 1 0.36 1"/>
+        </rect>
 <text x="42" y="404" font-family="monospace" font-size="10" fill="#c8d0e0">Sandbox / Testing</text>
-<text x="409" y="404" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">17%</text>
+<text x="409" y="404" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">0%</text>
 <rect x="42" y="408" width="367" height="5" rx="3" fill="#1e2533"/>
-<rect x="42" y="408" width="62"
+<rect x="42" y="408" width="2"
             height="5" rx="3" fill="#5a6478">
-          <animate attributeName="width" from="0" to="62"
+          <animate attributeName="width" from="0" to="2"
                    dur="1.2s" fill="freeze" calcMode="spline"
                    keySplines="0.22 1 0.36 1"/>
         </rect>
 <text x="42" y="434" font-family="monospace" font-size="10" fill="#c8d0e0">GitHub Repos</text>
-<text x="409" y="434" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">0%</text>
+<text x="409" y="434" font-family="monospace" font-size="9" fill="#5a6478" text-anchor="end">90%</text>
 <rect x="42" y="438" width="367" height="5" rx="3" fill="#1e2533"/>
-<rect x="42" y="438" width="2"
+<rect x="42" y="438" width="330"
             height="5" rx="3" fill="#5a6478">
-          <animate attributeName="width" from="0" to="2"
+          <animate attributeName="width" from="0" to="330"
                    dur="1.2s" fill="freeze" calcMode="spline"
                    keySplines="0.22 1 0.36 1"/>
         </rect>
@@ -599,18 +599,18 @@
 <line x1="447" y1="628" x2="822" y2="628" stroke="#1e2533" stroke-width="0.5"/>
 <text x="451" y="648" font-family="monospace" font-size="9" fill="#5a6478" letter-spacing="1">Open Blockers</text>
 <circle cx="457" cy="663" r="3" fill="#e2494a"/>
-<text x="467" y="667" font-family="monospace" font-size="9" fill="#5a6478">Meili:</text>
-<text x="503" y="667" font-family="monospace" font-size="9" fill="#c8d0e0">reflex.py rewrite · risk scoring engine</text>
-<circle cx="457" cy="685" r="3" fill="#f0a500"/>
-<text x="467" y="689" font-family="monospace" font-size="9" fill="#5a6478">Noah:</text>
-<text x="497" y="689" font-family="monospace" font-size="9" fill="#c8d0e0">testing report + sandbox case study</text>
+<text x="467" y="667" font-family="monospace" font-size="9" fill="#5a6478">Meili Liang:</text>
+<text x="539" y="667" font-family="monospace" font-size="9" fill="#c8d0e0">Multi-agent sandbox testing</text>
+<circle cx="457" cy="685" r="3" fill="#e2494a"/>
+<text x="467" y="689" font-family="monospace" font-size="9" fill="#5a6478">Chengquian Lou Noah:</text>
+<text x="587" y="689" font-family="monospace" font-size="9" fill="#c8d0e0">docker deployment + cloud provider sandbox deployment + sandbox testing</text>
 <circle cx="457" cy="707" r="3" fill="#f0a500"/>
 <text x="467" y="711" font-family="monospace" font-size="9" fill="#5a6478">∆OT:</text>
 <text x="491" y="711" font-family="monospace" font-size="9" fill="#c8d0e0">GitBook + all 7 repo READMEs</text>
 <circle cx="457" cy="729" r="3" fill="#1A6FC4"/>
-<text x="467" y="733" font-family="monospace" font-size="9" fill="#5a6478">Toba:</text>
-<text x="497" y="733" font-family="monospace" font-size="9" fill="#c8d0e0">WordPress source extraction</text>
+<text x="467" y="733" font-family="monospace" font-size="9" fill="#5a6478">OluwaToba Adenji:</text>
+<text x="569" y="733" font-family="monospace" font-size="9" fill="#c8d0e0">WordPress source extraction</text>
 <line x1="28" y1="763" x2="832" y2="763" stroke="#1e2533" stroke-width="0.5"/>
 <clipPath id="ticker-clip"><rect x="28" y="766" width="804" height="16"/></clipPath>
-<text font-family="monospace" font-size="9" fill="#5a6478" y="777" clip-path="url(#ticker-clip)"><tspan>POST /evaluate — endpoint validated   ·   Docker build — clean clone confirmed   ·   reflex.py — rewrite in progress   ·   MVP deadline — March 28   ·   GitBook docs — in progress   ·   Risk scoring — ML engine active   ·   Policy engine — healthcare ruleset   ·   Audit log — 8-field schema pending   ·   Sandbox — case study pending   ·   SDKs — Python + JS · planned   ·   POST /evaluate — endpoint validated   ·   Docker build — clean clone confirmed   ·   reflex.py — rewrite in progress   ·   MVP deadline — March 28   ·   GitBook docs — in progress   ·   Risk scoring — ML engine active   ·   Policy engine — healthcare ruleset   ·   Audit log — 8-field schema pending   ·   Sandbox — case study pending   ·   SDKs — Python + JS · planned</tspan><animateTransform attributeName="transform" type="translate" from="28,0" to="-2505,0" dur="28s" repeatCount="indefinite"/></text>
+<text font-family="monospace" font-size="9" fill="#5a6478" y="777" clip-path="url(#ticker-clip)"><tspan>POST /evaluate — endpoint validated   ·   Docker build — clean clone confirmed   ·   reflex.py — repository audit #1 &amp; #2 completed   ·   MVP deadline — March 28   ·   GitBook docs — in progress   ·   Risk scoring — ML engine active/LLMScorer API activation pending   ·   Policy engine — healthcare ruleset   ·   Audit log — 8-field schema completed   ·   Sandbox — case study pending   ·   SDKs — Python + JS · planned   ·   POST /evaluate — endpoint validated   ·   Docker build — clean clone confirmed   ·   reflex.py — repository audit #1 &amp; #2 completed   ·   MVP deadline — March 28   ·   GitBook docs — in progress   ·   Risk scoring — ML engine active/LLMScorer API activation pending   ·   Policy engine — healthcare ruleset   ·   Audit log — 8-field schema completed   ·   Sandbox — case study pending   ·   SDKs — Python + JS · planned</tspan><animateTransform attributeName="transform" type="translate" from="28,0" to="-2845,0" dur="28s" repeatCount="indefinite"/></text>
 </svg>
